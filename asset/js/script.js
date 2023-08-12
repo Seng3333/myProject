@@ -8,7 +8,7 @@
 //   }
 
 var nav = document.querySelector("#myTopnav");
-nav.onclick = function myFunction() {
+nar = nav.onclick = function myFunction() {
   var navber = document.querySelector(".nav");
   navber.classList.toggle("responsive");
 };
