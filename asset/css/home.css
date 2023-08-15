@@ -126,13 +126,35 @@ button {
 }
 .col-5 {
   flex: 1;
-  margin: 40px;
-  padding: 50px;
   background: #fff;
   border-bottom: 1px solid grey;
+  margin-top: 10px;
 }
 .col-3 > p {
   text-align: center;
+}
+.year {
+  background-color: #172951;
+  border-radius: 20px;
+  width: 60px;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: unset;
+}
+.discript {
+  color: gray;
+  margin-left: 15px;
+  display: inline;
+}
+.p{
+  display: flex;
+}
+h2{
+  margin-bottom: unset;
 }
 
 @media only screen and (max-width: 600px) {
