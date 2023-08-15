@@ -51,7 +51,7 @@ button {
 }
 .col {
   display: flex;
-  flex-flow: row;
+  flex-flow: inherit;
   justify-content: center;
   align-items: center;
   margin: 5px 0;
